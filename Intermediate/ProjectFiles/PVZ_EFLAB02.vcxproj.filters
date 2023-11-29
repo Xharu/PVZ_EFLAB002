@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PVZ_EFLAB02.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{CD167F34-6388-4142-9A8E-68482FAAE006}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PVZ_EFLAB02.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PVZ_EFLAB02Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{17A90A0C-95FA-408F-8F5A-7D12DFDF6C4B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PVZ_EFLAB02">
+      <UniqueIdentifier>{9CE27BA5-FCED-47A2-9E89-7C52C00BC137}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PVZ_EFLAB02\LechugaIceberg.cpp">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_EFLAB02\LechugaIceberg.h">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\PVZ_EFLAB02\PVZ_EFLAB02.Build.cs">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PVZ_EFLAB02\PVZ_EFLAB02.cpp">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_EFLAB02\PVZ_EFLAB02.h">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_EFLAB02\PVZ_EFLAB02GameMode.cpp">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_EFLAB02\PVZ_EFLAB02GameMode.h">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_EFLAB02\PVZ_EFLAB02Pawn.cpp">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_EFLAB02\PVZ_EFLAB02Pawn.h">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_EFLAB02\PVZ_EFLAB02Projectile.cpp">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_EFLAB02\PVZ_EFLAB02Projectile.h">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_EFLAB02\StateInterface.cpp">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_EFLAB02\StateInterface.h">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_EFLAB02\Zombie.cpp">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_EFLAB02\Zombie.h">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_EFLAB02\ZombieCongelado.cpp">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_EFLAB02\ZombieCongelado.h">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_EFLAB02\ZombieNormal.cpp">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_EFLAB02\ZombieNormal.h">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_EFLAB02\ZombieRealentizado.cpp">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_EFLAB02\ZombieRealentizado.h">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

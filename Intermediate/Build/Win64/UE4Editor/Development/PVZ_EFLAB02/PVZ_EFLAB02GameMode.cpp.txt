@@ -1,0 +1,19 @@
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\Definitions.PVZ_EFLAB02.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Source\PVZ_EFLAB02\PVZ_EFLAB02GameMode.h
+D:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_EFLAB02\PVZ_EFLAB02GameMode.generated.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Source\PVZ_EFLAB02\PVZ_EFLAB02Pawn.h
+D:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+D:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_EFLAB02\PVZ_EFLAB02Pawn.generated.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Source\PVZ_EFLAB02\Zombie.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_EFLAB02\Zombie.generated.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Source\PVZ_EFLAB02\LechugaIceberg.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_EFLAB02\LechugaIceberg.generated.h

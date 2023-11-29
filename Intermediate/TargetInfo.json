@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PVZ_EFLAB02",
+			"Path": "C:\\Users\\HP\\Documents\\Unreal Projects\\PVZ_EFLAB02\\Source\\PVZ_EFLAB02.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PVZ_EFLAB02Editor",
+			"Path": "C:\\Users\\HP\\Documents\\Unreal Projects\\PVZ_EFLAB02\\Source\\PVZ_EFLAB02Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
