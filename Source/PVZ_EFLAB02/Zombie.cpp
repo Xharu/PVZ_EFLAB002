@@ -15,7 +15,7 @@ AZombie::AZombie()
 
     ZombieMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Zombie Mesh"));
     ZombieMesh->SetCollisionProfileName(UCollisionProfile::BlockAll_ProfileName);
-    ZombieMesh->SetSimulatePhysics(true);
+    ZombieMesh->SetSimulatePhysics(false);
     ZombieMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 
     // Cargar la malla para el zombie

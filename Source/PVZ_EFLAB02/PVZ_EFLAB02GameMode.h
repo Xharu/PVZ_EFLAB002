@@ -27,10 +27,14 @@ public:
 	FTimerHandle TemporizadorHandle;
 	FTimerHandle TemporizadorHandle2;
 	FTimerHandle TemporizadorHandle3;
+
+	FTimerHandle TemporizadorCorienteAerea;
 public:
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
 	float TiempoTranscurrido;
+
+	void Volando();
 };
 
 

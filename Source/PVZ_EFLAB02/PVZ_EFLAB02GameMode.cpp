@@ -29,9 +29,7 @@ void APVZ_EFLAB02GameMode::BeginPlay()
 	AZombieVolador* ZombieVolador = GetWorld()->SpawnActor<AZombieVolador>(AZombieVolador::StaticClass(), SpawnLocationZombie, FRotator::ZeroRotator);
 
 	ZombieVolador->DefinirZombie(CorrienteAerea);
-
-	CorrienteAerea->DefinirEstado("Volando");
-
+	GetWorldTimerManager().SetTimer(TemporizadorCorienteAerea, this, &APVZ_EFLAB02GameMode::Volando, 5.0f, false);
 
 
 	/*AZombie* Zombie = GetWorld()->SpawnActor<AZombie>(AZombie::StaticClass(), SpawnLocationZombie, FRotator::ZeroRotator);*/
@@ -42,13 +40,6 @@ void APVZ_EFLAB02GameMode::BeginPlay()
 		vectorZombies.Add(NuevoZombie);
 	}*/
 
-	/*FVector SpawnLocationLechugaIceberg = FVector(-800.0f, -400.0f, 160.0f);
-
-	for (int i = 0; i < 2; i++) {
-		SpawnLocationLechugaIceberg.X += 300;
-		ALechugaIceberg* NuevoLechugaIceberg = GetWorld()->SpawnActor<ALechugaIceberg>(ALechugaIceberg::StaticClass(), SpawnLocationLechugaIceberg, FRotator::ZeroRotator);
-		vectorLechugaIceberg.Add(NuevoLechugaIceberg);
-	}*/
 	/*Zombie->Iniciar(3);*/
 	/*Zombie->Movimiento();*/
 
@@ -60,4 +51,9 @@ void APVZ_EFLAB02GameMode::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
+}
+
+void APVZ_EFLAB02GameMode::Volando()
+{
+		CorrienteAerea->DefinirEstado("Volando");
 }

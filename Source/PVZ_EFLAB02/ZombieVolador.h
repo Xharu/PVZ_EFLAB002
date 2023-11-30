@@ -6,6 +6,7 @@
 #include "Zombie.h"
 #include "Suscriptor.h" 
 #include "Levitar.h"
+#include "CorrienteAerea.h"
 #include "ZombieVolador.generated.h"
 
 /**

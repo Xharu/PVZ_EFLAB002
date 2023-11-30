@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PVZ_EFLAB02_ZombieVolador_generated_h
 
-#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_SPARSE_DATA
-#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_RPC_WRAPPERS
-#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_INCLASS_NO_PURE_DECLS \
+#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_SPARSE_DATA
+#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_RPC_WRAPPERS
+#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAZombieVolador(); \
 	friend struct Z_Construct_UClass_AZombieVolador_Statics; \
@@ -26,7 +26,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<AZombieVolador*>(this); }
 
 
-#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_INCLASS \
+#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAZombieVolador(); \
 	friend struct Z_Construct_UClass_AZombieVolador_Statics; \
@@ -36,7 +36,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<AZombieVolador*>(this); }
 
 
-#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_STANDARD_CONSTRUCTORS \
+#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AZombieVolador(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AZombieVolador) \
@@ -49,7 +49,7 @@ private: \
 public:
 
 
-#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_ENHANCED_CONSTRUCTORS \
+#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AZombieVolador() { }; \
 private: \
@@ -62,31 +62,31 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AZombieVolador)
 
 
-#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_PRIVATE_PROPERTY_OFFSET \
+#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CorrienteAerea() { return STRUCT_OFFSET(AZombieVolador, CorrienteAerea); }
 
 
-#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_14_PROLOG
-#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_GENERATED_BODY_LEGACY \
+#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_15_PROLOG
+#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_PRIVATE_PROPERTY_OFFSET \
-	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_SPARSE_DATA \
-	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_RPC_WRAPPERS \
-	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_INCLASS \
-	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_STANDARD_CONSTRUCTORS \
+	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_PRIVATE_PROPERTY_OFFSET \
+	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_SPARSE_DATA \
+	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_RPC_WRAPPERS \
+	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_INCLASS \
+	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_GENERATED_BODY \
+#define PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_PRIVATE_PROPERTY_OFFSET \
-	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_SPARSE_DATA \
-	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_INCLASS_NO_PURE_DECLS \
-	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_17_ENHANCED_CONSTRUCTORS \
+	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_PRIVATE_PROPERTY_OFFSET \
+	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_SPARSE_DATA \
+	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_INCLASS_NO_PURE_DECLS \
+	PVZ_EFLAB02_Source_PVZ_EFLAB02_ZombieVolador_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
