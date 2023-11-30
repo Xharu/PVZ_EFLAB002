@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodePVZ_EFLAB02_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x911A1DF3,
-				0x8DD26651,
+				0xAF9B44D1,
+				0x59765AF0,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

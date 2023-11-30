@@ -14,6 +14,24 @@ D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource
 D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_EFLAB02\PVZ_EFLAB02Pawn.generated.h
 C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Source\PVZ_EFLAB02\Zombie.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Source\PVZ_EFLAB02\StateInterface.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_EFLAB02\StateInterface.generated.h
 C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_EFLAB02\Zombie.generated.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Source\PVZ_EFLAB02\ZombieNormal.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_EFLAB02\ZombieNormal.generated.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Source\PVZ_EFLAB02\ZombieCongelado.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_EFLAB02\ZombieCongelado.generated.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Source\PVZ_EFLAB02\ZombieRealentizado.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_EFLAB02\ZombieRealentizado.generated.h
 C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Source\PVZ_EFLAB02\LechugaIceberg.h
 C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_EFLAB02\LechugaIceberg.generated.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Source\PVZ_EFLAB02\ZombieVolador.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Source\PVZ_EFLAB02\Suscriptor.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_EFLAB02\Suscriptor.generated.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Source\PVZ_EFLAB02\Levitar.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_EFLAB02\Levitar.generated.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_EFLAB02\ZombieVolador.generated.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Source\PVZ_EFLAB02\CorrienteAerea.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Source\PVZ_EFLAB02\Publicador.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_EFLAB02\Publicador.generated.h
+C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_EFLAB02\CorrienteAerea.generated.h

@@ -22,12 +22,8 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-	virtual void Tick(float DeltaTime) override;
 	class AZombie* Zombie;
-	virtual void ZombieNormalS() override;
-	virtual void ZombieCongeladoS() override;
-	virtual void ZombieRealentizadoS() override;
-	virtual FString ToString() override;
+	virtual void Movimiento() override;
+	virtual FString GetEstadoA_ToString() override;
 	virtual void DefinirZombie_Estados(class AZombie* _Zombie) override;
 };

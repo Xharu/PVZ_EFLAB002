@@ -40,8 +40,10 @@ void EmptyLinkFunctionForGeneratedCodeZombie() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AZombie_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "//class IStateInterface;\n" },
 		{ "IncludePath", "Zombie.h" },
 		{ "ModuleRelativePath", "Zombie.h" },
+		{ "ToolTip", "class IStateInterface;" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AZombie_Statics::StaticCppClassTypeInfo = {
@@ -71,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeZombie() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AZombie, 3031608671);
+	IMPLEMENT_CLASS(AZombie, 2509161193);
 	template<> PVZ_EFLAB02_API UClass* StaticClass<AZombie>()
 	{
 		return AZombie::StaticClass();

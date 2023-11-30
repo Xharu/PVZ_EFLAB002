@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeZombieCongelado() {}
 	PVZ_EFLAB02_API UClass* Z_Construct_UClass_AZombieCongelado();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_PVZ_EFLAB02();
+	PVZ_EFLAB02_API UClass* Z_Construct_UClass_UStateInterface_NoRegister();
 // End Cross Module References
 	void AZombieCongelado::StaticRegisterNativesAZombieCongelado()
 	{
@@ -31,6 +32,7 @@ void EmptyLinkFunctionForGeneratedCodeZombieCongelado() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -44,6 +46,9 @@ void EmptyLinkFunctionForGeneratedCodeZombieCongelado() {}
 		{ "ModuleRelativePath", "ZombieCongelado.h" },
 	};
 #endif
+		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AZombieCongelado_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_UStateInterface_NoRegister, (int32)VTABLE_OFFSET(AZombieCongelado, IStateInterface), false },
+		};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AZombieCongelado_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AZombieCongelado>::IsAbstract,
 	};
@@ -54,11 +59,11 @@ void EmptyLinkFunctionForGeneratedCodeZombieCongelado() {}
 		DependentSingletons,
 		nullptr,
 		nullptr,
-		nullptr,
+		InterfaceParams,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
-		0,
+		UE_ARRAY_COUNT(InterfaceParams),
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AZombieCongelado_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AZombieCongelado_Statics::Class_MetaDataParams))
 	};
@@ -71,7 +76,7 @@ void EmptyLinkFunctionForGeneratedCodeZombieCongelado() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AZombieCongelado, 59625466);
+	IMPLEMENT_CLASS(AZombieCongelado, 1463633393);
 	template<> PVZ_EFLAB02_API UClass* StaticClass<AZombieCongelado>()
 	{
 		return AZombieCongelado::StaticClass();

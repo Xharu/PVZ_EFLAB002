@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PVZ_EFLAB02.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CD167F34-6388-4142-9A8E-68482FAAE006}</UniqueIdentifier>
+      <UniqueIdentifier>{A06299AC-B7C1-43B9-A79F-A73CA83ED713}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PVZ_EFLAB02.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{17A90A0C-95FA-408F-8F5A-7D12DFDF6C4B}</UniqueIdentifier>
+      <UniqueIdentifier>{C6244FC3-DF09-4F47-B163-EC44FE88DC02}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,12 +32,30 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PVZ_EFLAB02">
-      <UniqueIdentifier>{9CE27BA5-FCED-47A2-9E89-7C52C00BC137}</UniqueIdentifier>
+      <UniqueIdentifier>{2CF2ECED-BFB8-426F-82C7-8D886EB1777F}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\PVZ_EFLAB02\CorrienteAerea.cpp">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_EFLAB02\CorrienteAerea.h">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\PVZ_EFLAB02\LechugaIceberg.cpp">
       <Filter>Source\PVZ_EFLAB02</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PVZ_EFLAB02\LechugaIceberg.h">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_EFLAB02\Levitar.cpp">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_EFLAB02\Levitar.h">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_EFLAB02\Publicador.cpp">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_EFLAB02\Publicador.h">
       <Filter>Source\PVZ_EFLAB02</Filter>
     </ClInclude>
     <None Include="..\..\Source\PVZ_EFLAB02\PVZ_EFLAB02.Build.cs">
@@ -73,6 +91,12 @@
     <ClInclude Include="..\..\Source\PVZ_EFLAB02\StateInterface.h">
       <Filter>Source\PVZ_EFLAB02</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_EFLAB02\Suscriptor.cpp">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_EFLAB02\Suscriptor.h">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\PVZ_EFLAB02\Zombie.cpp">
       <Filter>Source\PVZ_EFLAB02</Filter>
     </ClCompile>
@@ -95,6 +119,12 @@
       <Filter>Source\PVZ_EFLAB02</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PVZ_EFLAB02\ZombieRealentizado.h">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_EFLAB02\ZombieVolador.cpp">
+      <Filter>Source\PVZ_EFLAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_EFLAB02\ZombieVolador.h">
       <Filter>Source\PVZ_EFLAB02</Filter>
     </ClInclude>
   </ItemGroup>

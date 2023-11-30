@@ -62,31 +62,26 @@ void AZombie::Tick(float DeltaTime)
 		this->AddActorWorldOffset(Direction * DeltaMove);
 	}
 }
-
-void AZombie::Iniciar()
+void AZombie::Iniciar(int NivelDeFrio)
 {
-	ZombieCongelado  = GetWorld()->SpawnActor<AZombieCongelado>(AZombieCongelado::StaticClass());
+	ZombieCongelado = GetWorld()->SpawnActor<AZombieCongelado>(AZombieCongelado::StaticClass());
 	ZombieCongelado->DefinirZombie_Estados(this);
 	ZombieNormal = GetWorld()->SpawnActor<AZombieNormal>(AZombieNormal::StaticClass());
 	ZombieNormal->DefinirZombie_Estados(this);
 	ZombieRealentizado = GetWorld()->SpawnActor<AZombieRealentizado>(AZombieRealentizado::StaticClass());
 	ZombieRealentizado->DefinirZombie_Estados(this);
-	
-}
 
-void AZombie::ZombieCongeladoS()
-{
-	EstadoA->ZombieCongeladoS();
-}
+	Contador = NivelDeFrio;
 
-void AZombie::ZombieNormalS()
-{
-	EstadoA->ZombieNormalS();
-}
-
-void AZombie::ZombieRealentizadoS()
-{
-	EstadoA->ZombieRealentizadoS();
+	if (NivelDeFrio == 3) {
+		EstadoA = ZombieNormal;
+	}
+	if (NivelDeFrio == 2) {
+		EstadoA = ZombieRealentizado;
+	}
+	if (NivelDeFrio == 1) {
+		EstadoA = ZombieCongelado;
+	}
 }
 
 IStateInterface* AZombie::GetEstadoA()
@@ -107,7 +102,7 @@ IStateInterface* AZombie::GetZombieRealentizado()
 }
 FString AZombie::GetEstadoA_ToString()
 {
-	return "ZombieNormal" + EstadoA->ToString;
+	return "ZombieNormal" + EstadoA->GetEstadoA_ToString();
 }
 void AZombie::EstadoZ(IStateInterface* Estado)
 {
@@ -115,7 +110,7 @@ void AZombie::EstadoZ(IStateInterface* Estado)
 }
 void AZombie::VerificarSpeed()
 {
-	if (SpeedZombie == 0.08f)
+	/*if (SpeedZombie == 0.08f)
 	{
 		EstadoZ(ZombieNormal);
 		EstadoA->ZombieNormalS();
@@ -128,5 +123,20 @@ void AZombie::VerificarSpeed()
 	else if (SpeedZombie == 0.02f)
 	{
 		SpeedZombie = 0.02f;
-	}
+	}*/
+}
+
+void AZombie::SetVelocidad(float Movimiento)
+{
+	SpeedZombie=Movimiento;
+}
+
+void AZombie::Movimiento()
+{
+	EstadoA->Movimiento();
+}
+
+int AZombie::GetContador()
+{
+	return Contador;
 }

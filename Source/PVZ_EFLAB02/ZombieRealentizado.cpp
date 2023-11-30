@@ -25,19 +25,15 @@ void AZombieRealentizado::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
-void AZombieRealentizado::ZombieNormalS()
-{
-}
-void AZombieRealentizado::ZombieCongeladoS()
-{
-}
-void AZombieRealentizado::ZombieRealentizadoS()
-{
-	SpeedZombie = 0.04f;
-}
-FString AZombieRealentizado::ToString()
+FString AZombieRealentizado::GetEstadoA_ToString()
 {
 	return "ZombieNormal";
+}
+void AZombieRealentizado::Movimiento()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Movimiento Realentizado"));
+	Zombie->SetVelocidad(0.03f);
+	Zombie->EstadoZ(Zombie->GetZombieCongelado());
 }
 void AZombieRealentizado::DefinirZombie_Estados(AZombie* _Zombie)
 {

@@ -22,9 +22,7 @@ class PVZ_EFLAB02_API IStateInterface
 
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
-	virtual void ZombieNormalS() = 0;
-	virtual void ZombieCongeladoS() = 0;
-	virtual void ZombieRealentizadoS() = 0;
-	virtual FString ToString() = 0;
+	virtual void Movimiento() = 0;
+	virtual FString GetEstadoA_ToString() = 0;
 	virtual void DefinirZombie_Estados(class AZombie* _Zombie) = 0;
 };

@@ -1,0 +1,99 @@
+/MANIFEST:EMBED
+/MANIFESTINPUT:D:\UE_4.27\Engine\Build\Windows\Resources\Default-Win64.manifest
+/NOLOGO
+/DEBUG
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:12000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"d3d12.dll"
+/DELAYLOAD:"DBGHELP.DLL"
+/LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\lib\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\lib\um\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x64"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+/FUNCTIONPADMIN
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\PVZ_EFLAB02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\CorrienteAerea.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\LechugaIceberg.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\Levitar.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\Publicador.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\PVZ_EFLAB02.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\PVZ_EFLAB02GameMode.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\PVZ_EFLAB02Pawn.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\PVZ_EFLAB02Projectile.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\StateInterface.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\Suscriptor.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\Zombie.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\ZombieCongelado.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\ZombieNormal.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\ZombieRealentizado.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\ZombieVolador.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\CorrienteAerea.gen.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\LechugaIceberg.gen.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\Levitar.gen.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\Publicador.gen.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\PVZ_EFLAB02.init.gen.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\PVZ_EFLAB02GameMode.gen.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\PVZ_EFLAB02Pawn.gen.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\PVZ_EFLAB02Projectile.gen.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\StateInterface.gen.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\Suscriptor.gen.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\Zombie.gen.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\ZombieCongelado.gen.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\ZombieNormal.gen.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\ZombieRealentizado.gen.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\ZombieVolador.gen.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\Default.rc2.res"
+"D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
+"D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
+"D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
+"D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"dwmapi.lib"
+"imm32.lib"
+/OUT:"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Binaries\Win64\UE4Editor-PVZ_EFLAB02-9759.dll"
+/IMPLIB:"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_EFLAB02\UE4Editor-PVZ_EFLAB02-9759.suppressed.lib"
+/PDB:"C:\Users\HP\Documents\Unreal Projects\PVZ_EFLAB02\Binaries\Win64\UE4Editor-PVZ_EFLAB02-9759.pdb"
+/ignore:4078

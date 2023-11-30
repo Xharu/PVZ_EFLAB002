@@ -26,17 +26,14 @@ void AZombieNormal::Tick(float DeltaTime)
 
 }
 
-void AZombieNormal::ZombieNormalS()
+
+void AZombieNormal::Movimiento()
 {
-	SpeedZombie = 0.08f;
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Movimiento Normal"));
+	Zombie->SetVelocidad(0.09f);
+	Zombie->EstadoZ(Zombie->GetZombieRealentizado());
 }
-void AZombieNormal::ZombieCongeladoS()
-{
-}
-void AZombieNormal::ZombieRealentizadoS()
-{
-}
-FString AZombieNormal::ToString()
+FString AZombieNormal::GetEstadoA_ToString()
 {
 	return "ZombieNormal";
 }

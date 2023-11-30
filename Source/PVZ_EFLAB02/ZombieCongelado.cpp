@@ -23,19 +23,16 @@ void AZombieCongelado::BeginPlay()
 void AZombieCongelado::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+}
+
+void AZombieCongelado::Movimiento()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Movimiento Congelado"));
+	Zombie->SetVelocidad(0.0f);
 
 }
-void AZombieCongelado::ZombieNormalS()
-{
-}
-void AZombieCongelado::ZombieCongeladoS()
-{
-	SpeedZombie = 0.0f;
-}
-void AZombieCongelado::ZombieRealentizadoS()
-{
-}
-FString AZombieCongelado::ToString()
+
+FString AZombieCongelado::GetEstadoA_ToString()
 {
 	return "ZombieCongelado";
 }
